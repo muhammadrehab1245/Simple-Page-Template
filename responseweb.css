@@ -1,0 +1,133 @@
+.navmain {
+    flex-direction: column;
+    height: 50vh;
+    transition: all 1s ease-out;
+}
+
+.navopen{
+    height: 8vh;
+}
+
+.navnames {
+    height: 30vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 33px;
+}
+
+.navitems{
+    opacity: 0;
+}
+
+.navnames li {
+    font-size: 1rem;
+    padding: 1rem;
+}
+form.example button {
+    font-size: 1rem;
+}
+.example {
+    width: fit-content;
+    padding: 20px;
+
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width:100%;
+    position: absolute;
+    cursor:pointer;
+}
+
+
+.sectionparallex {
+    height: 78vh;
+}
+
+.logohead {
+    font-size: 1.1rem;
+}
+
+
+.section-d {
+    height: 35vh;
+}
+
+.section-d2 {
+    height: 19vh;
+    max-width: none;
+}
+
+
+.section-ph {
+    margin-top: 0;
+}
+
+.sides {
+    flex-direction: column;
+}
+
+.ph-p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.head2 {
+    font-size: 1.3rem;
+    width: auto;
+}
+
+.ph-head {
+    font-size: 0.7rem;
+}
+
+.content2 {
+    margin-top: 20px;
+        width: auto;
+}
+
+.content2 p {
+    margin-top: auto;
+    font-size: 0.7rem;
+    text-align: center
+}
+
+.skills-mh {
+    font-size: 0.9rem;
+}
+
+.sectionparallex-2{
+    height: auto;
+}
+
+.skills-h{
+    font-size: 0.8rem;
+}
+
+.info {
+    flex-direction: column;
+    background-color: #616161;
+    align-items: center;
+    margin-top: 8em;
+
+}
+
+.subsection-2{
+    margin-top: 8rem;
+}
+
+.image {
+    width: 180px;
+}
+
+.lines{
+   background-color: white;
+    width:35px;
+    height: 5px;
+    margin: 4px 3px;
+}
+

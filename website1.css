@@ -1,0 +1,257 @@
+*{
+    top:0px;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+
+    scroll-behavior: smooth;
+}
+
+.navmain{
+    background-color: grey;
+    display:flex;
+    width: 20px solid black;
+    top:10px;
+    position: sticky;
+    color: black;
+    align-items: center;
+    
+}
+.navnames{
+    list-style: none;
+    display: flex;
+}
+
+.navnames li{
+    font-size: 1.4rem;
+    top: 0px;
+  /*  padding: 1rem;*/
+    margin-left: 2.3rem; 
+}
+
+.navnames li:hover{
+    background-color: white;
+}
+
+.navnames li:active{
+    background-color: yellow;
+}
+
+.active{
+    background-color: #2196F3;
+}
+
+.example{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+form.example button {
+    background: #2196F3;
+    font-size: 1.4rem;}
+
+.hamburger{
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width:100%;
+    position: absolute;
+    cursor:pointer;
+}
+
+
+.section-bg::before{
+    content: "";
+    background:url('laptop.jpg') no-repeat center/cover;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    height: 90%;
+    width: 100%;
+    z-index:-1;
+} 
+.startsection{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionparallex{
+    height: 97vh;
+}
+
+.section-d{
+    height:50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items:center;
+     text-align: center;
+     margin: auto;
+   max-width: 70%;
+
+}
+.logohead{
+    width: 50%;
+    font-size: 2.7rem;
+    display: flex;
+    border: 2px solid whitesmoke;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.sectionparallex-2{
+    height: 105vh;
+}
+
+.section-d2{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    max-width: 40%;
+}
+
+.head2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    font-size: 1.7rem;
+}
+
+.section-ph{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.7rem;
+}
+
+.ph-head{
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.ph-d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.7rem;
+}
+
+.ph-p{
+    display: flex;
+    max-width: 82%;
+    font-size: 1rem;
+    font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.sides{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 150%; 
+}
+
+.image{
+    width: 357px;
+    height: 40vh;
+}
+
+.content1{
+    width: 70%;
+    display: flex;
+    font-size: 1.3rem;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1.3rem;
+}
+
+.content2{
+    width: 80%;
+    margin-bottom: 1.5rem;
+    height: 40vh;
+}
+
+.content2 p{
+    margin-top: 71px;
+}
+
+.parasides{
+    margin-bottom: 2.6rem;
+    margin-right: 2rem;
+}
+
+.subsection-2{
+    display: flex;
+   flex-direction: column;
+   height:50vh;
+}
+
+.skills-mh{
+    text-align:center ;
+   font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+
+.skillsboard{
+        display: flex;
+        flex-direction: column;
+
+}
+
+.skills-section{
+    display: flex;
+   flex-direction: column;
+   margin-top: 2.3rem;
+}
+
+.skills-h{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:1.4rem ;
+}
+
+.info{
+    display: flex;
+}
+
+.info1{
+    width: 25%;
+    justify-content: center;
+    background-color: #616161;
+    display: flex;
+    height: 20vh;
+    color: white;
+    align-items: center;
+}
+
+.info h1{
+    width: 35%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+@media screen and (min-width:1140px) and (max-width:3000px){
+    .sectionparallex-2 {
+        height: 138vh;
+    }
+}
